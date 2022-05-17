@@ -87,7 +87,6 @@ $text-icons-color: #797979;
 .nav-container {
   width: 100%;
   height: 100px;
-  margin-top: 1rem;
   background-color: white;
   font-size: 0.7rem;
 }

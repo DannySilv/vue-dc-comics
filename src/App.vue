@@ -23,4 +23,8 @@ export default {
 
 <style lang="scss">
 @import "./style/style.scss";
+
+#app {
+  margin: 1rem 0;
+}
 </style>
