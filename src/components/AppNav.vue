@@ -86,7 +86,7 @@ $text-icons-color: #797979;
 
 .nav-container {
   width: 100%;
-  height: 100px;
+  height: 80px;
   background-color: white;
   font-size: 0.7rem;
 }
@@ -96,23 +96,23 @@ $text-icons-color: #797979;
   justify-content: space-between;
   align-items: center;
   width: 70%;
-  height: 100px;
+  height: 80px;
   margin: 0 auto;
 }
 
 .logo-container {
-  width: 8%;
+  width: 6%;
 }
 
 ul {
-  width: 80%;
+  width: 65%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
 li {
-  line-height: 95px;
+  line-height: 75px;
   border-bottom: 5px solid transparent;
   &:hover {
     border-bottom: 5px solid $blue;

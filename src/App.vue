@@ -25,6 +25,6 @@ export default {
 @import "./style/style.scss";
 
 #app {
-  margin: 1rem 0;
+  margin: 10px 0;
 }
 </style>

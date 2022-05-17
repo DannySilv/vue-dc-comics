@@ -11,11 +11,13 @@ export default {};
 <style lang="scss" scoped>
 .temp-container {
   width: 70%;
-  height: 100px;
+  height: 80px;
+  margin: 0 auto;
 }
+
 h1 {
   color: white;
-  line-height: 100px;
+  line-height: 80px;
   vertical-align: middle;
 }
 </style>
