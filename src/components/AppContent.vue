@@ -154,7 +154,7 @@ $blue: #0282f9;
 }
 
 .btn-container {
-  width: 20%;
+  width: 30%;
   margin: 0 auto 1.5%;
   text-align: center;
 }
@@ -163,7 +163,7 @@ $blue: #0282f9;
   color: white;
   background-color: $blue;
   border: 2px solid $blue;
-  padding: 0.01rem 2.3rem;
+  padding: 0.01rem 3.5rem;
   font-family: "Koulen", cursive;
 }
 </style>
