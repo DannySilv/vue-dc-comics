@@ -8,10 +8,10 @@
         <li
           v-for="(navItem, index) in nav"
           :key="index"
-          :class="navItem.active === true ? 'active' : ''"
-          @click="navItem[index].active = true"
+          :class="index === currentItem ? 'active' : ''"
+          @click="thisNav(index)"
         >
-          <a href="">{{ navItem.text }}</a>
+          <a href="#">{{ navItem.text }}</a>
         </li>
       </ul>
     </div>
@@ -23,6 +23,7 @@ export default {
   name: "AppNav",
   data: function () {
     return {
+      currentItem: 0,
       nav: [
         {
           url: "#",
@@ -76,6 +77,11 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    thisNav(index) {
+      this.currentItem = index;
+    },
   },
 };
 </script>
